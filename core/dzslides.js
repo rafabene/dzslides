@@ -377,7 +377,7 @@ function init() {
   window.onmessage = Dz.onmessage.bind(Dz);
 }
 
-window.onload = init;
+document.addEventListener('DOMContentLoaded', init, false);
 
 // Helpers
 if (!Function.prototype.bind) {
