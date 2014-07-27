@@ -704,6 +704,7 @@ span.detail {
   visibility: visible;
 }
 
+/* FIXME move me to the core stylesheet! */
 .view .incremental * {
   opacity: 1 !important;
 }
