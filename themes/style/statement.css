@@ -53,7 +53,7 @@ section {
 section h1,
 section h2 {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.2em;
   line-height: 1;
   font-weight: normal;
   margin: 0 0.5em;
@@ -164,13 +164,13 @@ section.source h2 {
 pre.literal,
 code {
   font-family: "M+ 1mn", monospace;
-  font-size: 0.65em;
+  font-size: 0.5em;
 }
 
 pre.literal,
 pre code {
   color: #222;
-  line-height: 1.25;
+  line-height: 1.4;
 }
 
 pre code {
@@ -183,14 +183,6 @@ pre code {
 pre.literal {
   margin-top: 0.75em;
   padding: 0 0.5em;
-}
-
-blockquote:before {
-  content: open-quote;
-}
-
-blockquote:after {
-  content: close-quote;
 }
 
 /* Figures are displayed full-page, with the caption
@@ -206,14 +198,22 @@ figcaption {
   opacity: 0.5;
   /*position: absolute;*/
   bottom: 5%;
-  font-size: 1.5em;
-  width: 100%; 
+  font-size: 1.1em;
+  width: 100%;
   padding: 0.25em 0.5em;
 }
 
 *:not(figure) > img.canvas {
   width: 100%;
   height: 100%;
+}
+
+img.resized {
+  height: 75%;
+  width: auto;
+  position: static;
+  margin: auto;
+  display: block;
 }
 
 img.fit {
@@ -287,6 +287,143 @@ div.title + pre {
 .eg, .ie {
   font-size: 0.7em;
   color: #bdbdbd;
+}
+
+p.lead-in {
+  color: #555;
+  margin: 0 1em;
+}
+
+p.lead-in + p {
+  font-size: 1.5em;
+  margin: 0 0.75em 0 1.5em;
+}
+
+p.whisper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  font-size: 0.75em;
+  line-height: 1;
+  font-style: italic;
+  color: #777;
+  padding: 0.5em 1em;
+  text-align: right;
+}
+
+div.speaker {
+  margin: 1em;
+  line-height: 1.5;
+  color: #222;
+}
+
+div.speaker ol,
+div.speaker ul,
+div.speaker p {
+  font-size: 1rem;
+  font-family: "Noto Serif", "Serif", serif;
+}
+
+div.speaker ol {
+  padding-left: 40px;
+  margin: 1em 0;
+}
+
+div.speaker ol ol {
+  margin: 0;
+}
+
+div.speaker ol ul {
+  margin: 0;
+}
+
+div.speaker ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+div.speaker p {
+  margin: 1em 0;
+}
+
+blockquote {
+  padding: 0 0 0 2rem;
+  margin: 1em 2em 0 2em;
+  font-size: 0.75em;
+}
+
+blockquote:before {
+  color: #570000;
+  content: '\201C';
+  font-size: 4em;
+  font-family: "Liberation Serif", "Serif", serif;
+  font-weight: 700;
+  float: left;
+  margin-left: -0.5em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+  margin-top: -0.25em;
+}
+
+section blockquote p {
+  color: #222;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+  font-style: italic;
+  font-size: 2em;
+}
+
+blockquote p em {
+  font-style: italic;
+}
+
+blockquote p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0.25em;
+}
+
+blockquote cite {
+  font-size: 1.25em;
+  display: block;
+  line-height: 1.8;
+  color: #666;
+  font-style: normal;
+}
+
+blockquote cite:before {
+  content: '\2014 \00A0';
+}
+
+.listingblock pre {
+  white-space: pre-wrap;
+}
+
+.conum[data-value] { display: inline-block; color: white !important; background-color: #333333; -webkit-border-radius: 100px; border-radius: 100px; text-align: center; width: 20px; height: 20px; font-size: 12px; line-height: 20px; font-family: "Sans", sans-serif; font-style: normal; font-weight: bold; text-indent: 0; padding-top: 1px; }
+.conum[data-value] * { color: white !important; }
+.conum[data-value] + b { display: none; }
+.conum[data-value]:after { content: attr(data-value); }
+pre .conum[data-value] { position: relative; top: -1px; }
+b.conum * { color: inherit !important; }
+.conum:not([data-value]):empty { display: none; }
+.colist > table { font-size: 0.65em; font-family: "Noto Sans", "Sans", sans; }
+.colist > table tr > td:first-of-type { padding: 0 .25em; line-height: 1; }
+.colist > table tr > td:last-of-type { padding: 0.25em 0; line-height: 1.25; color: #222;}
+
+section.statement > p:first-of-type {
+  font-size: 1.25em;
+  margin: 0 1em;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+section.statement p em {
+  font-style: normal;
+  color: #570000;
 }
 
 section.ruby {
