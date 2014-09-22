@@ -1,14 +1,17 @@
-/* Tomorrow Night Bright Theme */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
 
-/* Tomorrow Comment */
+/* Kimbie Comment */
 .hljs-comment,
 .hljs-title {
-  color: #969896;
+  color: #a57a4c;
 }
 
-/* Tomorrow Red */
+/* Kimbie Red */
 .hljs-variable,
 .hljs-attribute,
 .hljs-tag,
@@ -21,42 +24,41 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #d54e53;
+  color: #dc3958;
 }
 
-/* Tomorrow Orange */
+/* Kimbie Orange */
 .hljs-number,
 .hljs-preprocessor,
-.hljs-pragma,
 .hljs-built_in,
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #e78c45;
+  color: #f79a32;
 }
 
-/* Tomorrow Yellow */
+/* Kimbie Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rules .hljs-attribute {
-  color: #e7c547;
+  color: #f06431;
 }
 
-/* Tomorrow Green */
+/* Kimbie Green */
 .hljs-string,
 .hljs-value,
 .hljs-inheritance,
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #b9ca4a;
+  color: #889b4a;
 }
 
-/* Tomorrow Aqua */
+/* Kimbie Aqua */
 .css .hljs-hexcolor {
-  color: #70c0b1;
+  color: #088649;
 }
 
-/* Tomorrow Blue */
+/* Kimbie Blue */
 .hljs-function,
 .python .hljs-decorator,
 .python .hljs-title,
@@ -65,20 +67,20 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #7aa6da;
+  color: #8ab1b0;
 }
 
-/* Tomorrow Purple */
+/* Kimbie Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #c397d8;
+  color: #98676a;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: black;
-  color: #eaeaea;
+  background: #fbebd4;
+  color: #84613d;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }
