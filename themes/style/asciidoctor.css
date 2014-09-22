@@ -103,7 +103,6 @@ section.intro, section.terminal {
 section.intro h1,
 section.intro h2 {
   color: #FEFEFE;
-  text-transform: lowercase;
   line-height: .7em;
   text-align: left;
   font-size: 4.4em;
@@ -204,7 +203,6 @@ section.ending {
 section.ending > h2 {
   color: #ffffff;
   font-size: 4em;
-  text-transform: lowercase;
 }
 
 section.ending > h2.name {
