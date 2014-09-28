@@ -168,6 +168,16 @@ section.recap > h2 {
   padding: 10px;
 }
 
+section.recap .line-through:after {
+  content:" ";
+  height:0.2em;
+  width:90%;
+  background-color:#005498;
+  position:absolute;
+  right: 5%;
+  top: 50%;
+}
+
 section.recap hgroup h2 {
   color: #222222;
   text-transform: uppercase;
