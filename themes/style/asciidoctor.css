@@ -172,10 +172,15 @@ section.recap .line-through:after {
   content:" ";
   height:0.2em;
   width:90%;
-  background-color:#005498;
+  background-color:#FFFF00;
+  opacity: 0.8;
   position:absolute;
   right: 5%;
   top: 50%;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
 section.recap hgroup h2 {
