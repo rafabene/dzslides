@@ -148,7 +148,6 @@ section.secret strong {
 section.recap > h1,
 section.recap > h2 {
   margin: 0;
-  text-transform: uppercase;
   color: #005498;
   font-size: 2em;
   border: 15px solid #005498;
@@ -185,13 +184,11 @@ section.recap .line-through:after {
 
 section.recap hgroup h2 {
   color: #222222;
-  text-transform: uppercase;
   font-size: 4.4em;
 }
 
 section.recap hgroup h3 {
   color: #BA3925;
-  text-transform: uppercase;
   font-size: 3em;
 }
 
