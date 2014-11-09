@@ -39,6 +39,15 @@ body, .view section {
   line-height: 1;
 }
 
+.smaller {
+  font-size: .8em;
+}
+
+.smallest {
+  font-size: .7em;
+}
+
+
 section, .view head > title {
 }
 
@@ -828,6 +837,14 @@ ol {
   margin-left: 1.5em;
   font-size: 1.5em;
   margin-bottom: .5em;
+}
+
+ol.loweralpha {
+  font-size: 0.9em;
+}
+
+ol.lowerroman {
+  font-size: 0.9em;
 }
 
 .conum {
