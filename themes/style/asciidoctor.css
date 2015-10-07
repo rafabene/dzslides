@@ -47,6 +47,9 @@ body, .view section {
   font-size: .7em;
 }
 
+.margin10 {
+  margin-left: 10%;
+}
 
 section, .view head > title {
 }
@@ -132,6 +135,20 @@ section.intro h2 strong {
 section.intro  p {
   color: #555555;
 }
+
+section.intro2 {
+  background-color: #FEFEFE;
+}
+
+section.intro2 h1,
+section.intro2 h2 {
+  color: #111111;
+  line-height: .7em;
+  text-align: left;
+  font-size: 4.4em;
+  margin-bottom: 50px;
+}
+
 
 section.terminal pre.literal {
   color: #D5EE5E;
